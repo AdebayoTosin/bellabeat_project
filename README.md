@@ -12,7 +12,7 @@
 # STATEMENT OF BUSINESS TASK
 
 This project focus on how to improve the marketing strategy of bellabeat products 
-by using data to gain insight on how customer use non bellabeat smart device,
+by using data to gain insight on how users use non bellabeat smart device,
 which will unlock new growth opportunity for the company to ensure 
 the stakeholders make best and inform decisions through our recommendations.
 
