@@ -38,6 +38,8 @@ The limitation on the data are;
 as the demographic information are not in the data, we may have sampling bias
 -   Also the data is not current and is limited to just 2month of survey records
 
+  **Disclaimer** this is not a private data has this is choosen by Google for learning purposes.
+
 ## CLEANING AND DATA MANIPULATION PROCESSES
 
 I will focus my analysis in R due to the size of the data and to be able to create my data visualizations
