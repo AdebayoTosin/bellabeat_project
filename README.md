@@ -225,6 +225,7 @@ ggplot(data = merged_data)+
   geom_smooth(mapping = aes(x=StepTotal, y=Calories))+
   labs(title = "Dailysteps vs Daily Calories")
 ```
+![image](https://github.com/AdebayoTosin/bellabeat_project/blob/main/Dailysteps%20vs%20Dailycalories.png)
 
 dailysteps vs weighlog chart: this is visualize the correlation between dailystep and weight.
 
@@ -236,6 +237,7 @@ merged_data2 <- merge(dailysteps, weightlog, by = c('Id'))
   geom_smooth(mapping = aes(x=StepTotal, y=WeightKg))+
     labs(title = "Dailysteps vs Weightinfo", subtitle = "Correlation between Total dailysteps and weightKg")
 ```
+![image](https://github.com/AdebayoTosin/bellabeat_project/blob/main/Dailystepvsweightinfo.png)
 
 dailysteps by Weekdays charts : this visualization demonstrate that Tuesday has the lowest activities
 
@@ -244,6 +246,7 @@ ggplot(data = dailysteps)+
   geom_bar(mapping = aes(x=dayofweek,fill=dayofweek))+
   labs(title = "DailySteps by weekdays chart")
 ```
+![image](https://github.com/AdebayoTosin/bellabeat_project/blob/main/dailycalories%20vs%20weekdays.png)
 
 Daily caalories by weekdays charts: this visualization demonstrate that there is low burn of calories on Tuesday 
 which demonstrate further more correlation between calories and daily step
@@ -253,6 +256,7 @@ ggplot(data = dailycalories)+
   geom_bar(mapping = aes(x=dayofweek,fill=dayofweek))+
   labs(title = "Daily Calories by Weekdays chart")
 ```
+![image](https://github.com/AdebayoTosin/bellabeat_project/blob/main/dailycalories%20vs%20weekdays.png)
 
 ## Summary of key findings
 
