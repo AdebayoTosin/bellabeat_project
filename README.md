@@ -42,7 +42,7 @@ as the demographic information are not in the data, we may have sampling bias
 
 ## CLEANING AND DATA MANIPULATION PROCESSES
 
-I will focus my analysis in R due to the size of the data and to be able to create my data visualizations
+I will focus my analysis in R due to the size of the data and also to demostrate my skills 
 
 ### Installing packages and opening libraries
 
